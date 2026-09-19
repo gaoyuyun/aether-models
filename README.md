@@ -32,6 +32,7 @@
 | --- | --- |
 | `claude_code` | Claude Code OAuth 渠道，纯预设，不查上游 |
 | `grok` | Grok 网页渠道，纯预设，不查上游 |
+| `grok_build` | Grok Build（xAI Grok CLI OAuth）渠道，上游 cli-chat-proxy 不提供模型列表，纯预设 |
 | `gemini_cli` | Gemini CLI 渠道，模型来自预设，上游只提供套餐元数据 |
 | `kiro` | Kiro 渠道，正常实时查上游，这里只是 Key 没有端点时的兜底 |
 
