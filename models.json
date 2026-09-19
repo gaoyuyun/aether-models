@@ -1,13 +1,58 @@
 {
   "schema_version": 1,
-  "updated_at": "2026-09-19",
+  "updated_at": "2026-09-20",
   "providers": {
     "claude_code": [
       {
-        "id": "claude-opus-4-5-20251101",
+        "id": "claude-fable-5-1",
         "object": "model",
         "owned_by": "anthropic",
-        "display_name": "Claude Opus 4.5",
+        "display_name": "Claude Fable 5.1",
+        "api_formats": [
+          "claude:messages"
+        ]
+      },
+      {
+        "id": "claude-fable-5",
+        "object": "model",
+        "owned_by": "anthropic",
+        "display_name": "Claude Fable 5",
+        "api_formats": [
+          "claude:messages"
+        ]
+      },
+      {
+        "id": "claude-opus-5",
+        "object": "model",
+        "owned_by": "anthropic",
+        "display_name": "Claude Opus 5",
+        "api_formats": [
+          "claude:messages"
+        ]
+      },
+      {
+        "id": "claude-sonnet-5",
+        "object": "model",
+        "owned_by": "anthropic",
+        "display_name": "Claude Sonnet 5",
+        "api_formats": [
+          "claude:messages"
+        ]
+      },
+      {
+        "id": "claude-opus-4-8",
+        "object": "model",
+        "owned_by": "anthropic",
+        "display_name": "Claude Opus 4.8",
+        "api_formats": [
+          "claude:messages"
+        ]
+      },
+      {
+        "id": "claude-opus-4-7",
+        "object": "model",
+        "owned_by": "anthropic",
+        "display_name": "Claude Opus 4.7",
         "api_formats": [
           "claude:messages"
         ]
@@ -31,6 +76,15 @@
         ]
       },
       {
+        "id": "claude-opus-4-5-20251101",
+        "object": "model",
+        "owned_by": "anthropic",
+        "display_name": "Claude Opus 4.5",
+        "api_formats": [
+          "claude:messages"
+        ]
+      },
+      {
         "id": "claude-sonnet-4-5-20250929",
         "object": "model",
         "owned_by": "anthropic",
@@ -47,23 +101,68 @@
         "api_formats": [
           "claude:messages"
         ]
+      },
+      {
+        "id": "claude-opus-4-1-20250805",
+        "object": "model",
+        "owned_by": "anthropic",
+        "display_name": "Claude Opus 4.1",
+        "api_formats": [
+          "claude:messages"
+        ]
+      },
+      {
+        "id": "claude-opus-4-20250514",
+        "object": "model",
+        "owned_by": "anthropic",
+        "display_name": "Claude Opus 4",
+        "api_formats": [
+          "claude:messages"
+        ]
+      },
+      {
+        "id": "claude-sonnet-4-20250514",
+        "object": "model",
+        "owned_by": "anthropic",
+        "display_name": "Claude Sonnet 4",
+        "api_formats": [
+          "claude:messages"
+        ]
+      },
+      {
+        "id": "claude-3-7-sonnet-20250219",
+        "object": "model",
+        "owned_by": "anthropic",
+        "display_name": "Claude 3.7 Sonnet",
+        "api_formats": [
+          "claude:messages"
+        ]
+      },
+      {
+        "id": "claude-3-5-haiku-20241022",
+        "object": "model",
+        "owned_by": "anthropic",
+        "display_name": "Claude 3.5 Haiku",
+        "api_formats": [
+          "claude:messages"
+        ]
       }
     ],
     "gemini_cli": [
       {
-        "id": "gemini-2.5-pro",
+        "id": "gemini-3.1-pro-preview",
         "object": "model",
         "owned_by": "google",
-        "display_name": "Gemini 2.5 Pro",
+        "display_name": "Gemini 3.1 Pro Preview",
         "api_formats": [
           "gemini:generate_content"
         ]
       },
       {
-        "id": "gemini-2.5-flash",
+        "id": "gemini-3.1-flash-lite-preview",
         "object": "model",
         "owned_by": "google",
-        "display_name": "Gemini 2.5 Flash",
+        "display_name": "Gemini 3.1 Flash Lite Preview",
         "api_formats": [
           "gemini:generate_content"
         ]
@@ -87,10 +186,28 @@
         ]
       },
       {
-        "id": "gemini-3.1-pro-preview",
+        "id": "gemini-2.5-pro",
         "object": "model",
         "owned_by": "google",
-        "display_name": "Gemini 3.1 Pro Preview",
+        "display_name": "Gemini 2.5 Pro",
+        "api_formats": [
+          "gemini:generate_content"
+        ]
+      },
+      {
+        "id": "gemini-2.5-flash",
+        "object": "model",
+        "owned_by": "google",
+        "display_name": "Gemini 2.5 Flash",
+        "api_formats": [
+          "gemini:generate_content"
+        ]
+      },
+      {
+        "id": "gemini-2.5-flash-lite",
+        "object": "model",
+        "owned_by": "google",
+        "display_name": "Gemini 2.5 Flash Lite",
         "api_formats": [
           "gemini:generate_content"
         ]
